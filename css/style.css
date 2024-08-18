@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(71, 202, 228);
+    flex: 1;
+    height: 50px;
+    margin: 10px;
+}
+.Hero{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.hero{
+    margin: 10px;
+    background: rgb(215, 123, 216);
+    width: 300px;
+    height: 150px;
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: rgb(130, 230, 130);
+    width: 300px;
+    height: 200px;
+}
+.main-container{
+    display: flex;
+    flex: 1;
+}
+.content-1{
+    display: flex;
+    margin: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(233, 179, 2);
+    width: 810px;
+    height: 238px;
+}
+.content-2{
+    margin: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 810px;
+    height: 122px;
+    background: gray;
+}
+.Related{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.Related-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(57, 169, 89);
+    width: 700px;
+    margin: 10px;
+}
+.Related-image-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: palevioletred;
+    width: 500px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(250, 139, 48);
+    flex: 1;
+    height: 50px;
+    margin: 10px;
+}
